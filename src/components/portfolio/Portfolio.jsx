@@ -6,7 +6,7 @@ const Portfolio = () => {
     return (
         <section id="portfolio">
             <h5>My most recent work</h5>
-            <h2>Portfolio</h2>
+            <h2>Projects</h2>
             <div className="container portfolio__container">
                 {data.map(({ id, img, title, github, demo }) => {
                     return (
@@ -16,10 +16,10 @@ const Portfolio = () => {
                             </div>
                             <h3>{title}</h3>
                             <div className="portfolio__item-cta">
-                                <a href={github} className="btn">
+                                <a target="_blank" href={github} className="btn">
                                     Github
                                 </a>
-                                <a href={demo} className="btn btn-primary">
+                                <a target="_blank" href={demo} className="btn btn-primary">
                                     Live Demo
                                 </a>
                             </div>
