@@ -3,6 +3,7 @@ import "./footer.css";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
+import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -23,7 +24,7 @@ const Footer = () => {
           <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio">Project</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -35,6 +36,9 @@ const Footer = () => {
         </a>
         <a href="https://github.com/Sumonnn">
           <FaGithub />
+        </a>
+        <a target="_blank" href="https://www.instagram.com/sumonn666/">
+          <AiFillInstagram />
         </a>
       </div>
       <div className="footer__copyright">
